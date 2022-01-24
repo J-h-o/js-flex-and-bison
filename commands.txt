@@ -1,0 +1,8 @@
+For lexer only go to lexV1 and run the following commands:
+
+flex compiler.l
+gcc lex.yy.c -lfl -lm
+./a.out index.js
+
+For lexer and syntactical analysis (works only with function name and for) go to flex and bison and run the following commands:
+make
